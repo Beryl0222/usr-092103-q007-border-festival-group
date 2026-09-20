@@ -1,0 +1,9 @@
+{
+  "event_id": "092103-007-sample-001",
+  "event_type": "GROUP_CREATED",
+  "aggregate_type": "travel_group",
+  "aggregate_id": "border_festival_group-001",
+  "occurred_at": "2026-09-20T16:00:00+08:00",
+  "version": 1,
+  "summary": "边境节庆团组协同联调样例"
+}
