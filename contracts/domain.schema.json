@@ -20,19 +20,43 @@
       "type": "string",
       "enum": [
         "GROUP_CREATED",
+        "MEMBER_REGISTERED",
+        "MEMBER_WAITLISTED",
+        "MEMBER_UPDATED",
+        "MEMBER_WITHDRAWN",
+        "WAITLIST_PROMOTED",
         "ELIGIBILITY_CONFIRMED",
+        "ELIGIBILITY_REVOKED",
+        "RESOURCE_REGISTERED",
         "RESOURCE_HELD",
+        "RESOURCE_HOLD_CONFIRMED",
+        "RESOURCE_HOLD_RELEASED",
+        "RESOURCE_HOLD_EXPIRED",
+        "CROSSING_SLOT_PUBLISHED",
+        "CROSSING_GROUP_ASSIGNED",
+        "CROSSING_FLOW_RESTRICTED",
+        "CROSSING_BATCHING_PROPOSED",
         "CROSSING_RESCHEDULED",
-        "ATTENDANCE_SETTLED"
+        "ATTENDANCE_RECORDED",
+        "CONTRACT_PUBLISHED",
+        "CANCELLATION_ASSESSED",
+        "SETTLEMENT_COMPUTED",
+        "EXPORT_ISSUED"
       ]
     },
     "aggregate_type": {
       "type": "string",
       "enum": [
         "travel_group",
+        "group_member",
         "member_eligibility",
+        "inventory_resource",
         "resource_hold",
-        "attendance_proof"
+        "crossing_slot",
+        "attendance_proof",
+        "contract",
+        "settlement",
+        "export_record"
       ]
     },
     "aggregate_id": {
@@ -50,6 +74,14 @@
     "summary": {
       "type": "string",
       "minLength": 1
+    },
+    "payload": {
+      "type": "object",
+      "description": "事件业务载荷；证件号码等敏感细节不进入载荷，只保留状态与引用"
+    },
+    "actor": {
+      "type": "string",
+      "description": "触发变更的一方（领队、调度员、口岸系统等）"
     }
   },
   "additionalProperties": true
