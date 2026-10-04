@@ -5,5 +5,14 @@
   "aggregate_id": "border_festival_group-001",
   "occurred_at": "2026-09-20T16:00:00+08:00",
   "version": 1,
-  "summary": "边境节庆团组协同联调样例"
+  "summary": "边境节庆团组协同联调样例",
+  "source": {
+    "id": "festival_dispatch",
+    "kind": "festival_dispatch"
+  },
+  "payload": {
+    "group_id": "border_festival_group-001",
+    "activity_kind": "chorus",
+    "name": "边境节庆联调样例团"
+  }
 }

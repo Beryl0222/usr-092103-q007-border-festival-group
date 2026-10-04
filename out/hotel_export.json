@@ -1,0 +1,19 @@
+[
+  {
+    "member_id": "m_zhang",
+    "display_name": "张大力",
+    "aliases": [],
+    "side": "domestic",
+    "team_id": "t_wrestle",
+    "team_name": "摔跤联队",
+    "bookings": [
+      {
+        "booking_id": "bk_hotel_808",
+        "kind": "hotel",
+        "supplier": "口岸国际大酒店 808 房"
+      }
+    ],
+    "holds": [],
+    "crossing_batch": null
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "generated_at": "2026-10-05T12:00:00+08:00",
+  "groups": [
+    {
+      "group_id": "g_chorus",
+      "name": "伏尔加之声合唱团",
+      "activity_kind": "chorus",
+      "active": 3,
+      "withdrawn": 1,
+      "need_interpreter": 1,
+      "eligibility_unconfirmed": 3,
+      "leaders": {
+        "domestic": {
+          "leader_id": "leader_cn",
+          "name": "李调度"
+        },
+        "foreign": {
+          "leader_id": "leader_ru",
+          "name": "Иванова"
+        }
+      },
+      "latest_batch_plan": null
+    },
+    {
+      "group_id": "g_sports",
+      "name": "中俄青少年体育大会·摔跤队",
+      "activity_kind": "sports_games",
+      "active": 1,
+      "withdrawn": 2,
+      "need_interpreter": 0,
+      "eligibility_unconfirmed": 1,
+      "leaders": {},
+      "latest_batch_plan": null
+    },
+    {
+      "group_id": "g_trade",
+      "name": "后贝加尔斯克边贸采购团",
+      "activity_kind": "trade_fair",
+      "active": 6,
+      "withdrawn": 0,
+      "need_interpreter": 0,
+      "eligibility_unconfirmed": 2,
+      "leaders": {},
+      "latest_batch_plan": "plan_1001"
+    },
+    {
+      "group_id": "g_trade2",
+      "name": "零散商户团",
+      "activity_kind": "trade_fair",
+      "active": 1,
+      "withdrawn": 0,
+      "need_interpreter": 0,
+      "eligibility_unconfirmed": 1,
+      "leaders": {},
+      "latest_batch_plan": null
+    }
+  ],
+  "capacity_risks": [
+    {
+      "resource_id": "r_seat_chorus",
+      "label": "合唱音乐会主厅席位",
+      "used": 3,
+      "capacity": 3,
+      "severity": "full"
+    }
+  ],
+  "waitlists": [],
+  "eligibility_risks": [
+    {
+      "group_id": "g_chorus",
+      "member_id": "m_wanglei_2",
+      "display_name": "王磊",
+      "state": "not_requested"
+    },
+    {
+      "group_id": "g_chorus",
+      "member_id": "m_anna",
+      "display_name": "Анна Петрова",
+      "state": "not_requested"
+    },
+    {
+      "group_id": "g_chorus",
+      "member_id": "m_boris",
+      "display_name": "Борис Смирнов",
+      "state": "not_requested"
+    },
+    {
+      "group_id": "g_sports",
+      "member_id": "m_zhang",
+      "display_name": "张大力",
+      "state": "not_requested"
+    },
+    {
+      "group_id": "g_trade",
+      "member_id": "m_zhao",
+      "display_name": "赵守明",
+      "state": "not_requested"
+    },
+    {
+      "group_id": "g_trade",
+      "member_id": "m_qian",
+      "display_name": "钱多金",
+      "state": "denied"
+    },
+    {
+      "group_id": "g_trade2",
+      "member_id": "m_extra1",
+      "display_name": "孙老板",
+      "state": "not_requested"
+    }
+  ],
+  "crossing_risks": [
+    {
+      "slot_id": "s_1002_0900",
+      "port_code": "MZL",
+      "capacity": 3,
+      "latest_change": {
+        "from": 6,
+        "to": 3,
+        "reason": "临时客流管控",
+        "at": "2026-10-01T14:00:00.000Z"
+      },
+      "severity": "capacity_changed"
+    }
+  ],
+  "booking_risks": [
+    {
+      "booking_id": "bk_hotel_808",
+      "supplier": "口岸国际大酒店 808 房",
+      "used": 3,
+      "capacity": 3,
+      "severity": "full"
+    }
+  ],
+  "export_risks": [
+    {
+      "export_id": "export_4305c2e9-0c6",
+      "status": "revoked"
+    },
+    {
+      "export_id": "export_e51b7aed-f34",
+      "status": "expired",
+      "recipient": {
+        "id": "venue_hall",
+        "name": "音乐厅票务",
+        "kind": "venue"
+      },
+      "expires_at": "2026-09-25T02:00:00.000Z"
+    }
+  ]
+}

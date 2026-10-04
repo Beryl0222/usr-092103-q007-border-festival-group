@@ -1,0 +1,122 @@
+[
+  {
+    "member_id": "m_oleg",
+    "display_name": "Олег Кузнецов",
+    "aliases": [],
+    "side": "foreign",
+    "team_id": "t_food",
+    "team_name": "食品采购组",
+    "eligibility_state": "confirmed",
+    "document_ref": "DOC-REF-M_OLEG",
+    "bookings": [],
+    "holds": [],
+    "crossing_batch": {
+      "plan_id": "plan_1001",
+      "batch_no": 1,
+      "slot_id": "s_1002_0900",
+      "port_code": "MZL",
+      "start_at": "2026-10-02T09:00:00+08:00",
+      "status": "accepted"
+    }
+  },
+  {
+    "member_id": "m_yuri",
+    "display_name": "Юрий Волков",
+    "aliases": [],
+    "side": "foreign",
+    "team_id": "t_food",
+    "team_name": "食品采购组",
+    "eligibility_state": "confirmed",
+    "document_ref": "DOC-REF-M_YURI",
+    "bookings": [],
+    "holds": [],
+    "crossing_batch": {
+      "plan_id": "plan_1001",
+      "batch_no": 1,
+      "slot_id": "s_1002_0900",
+      "port_code": "MZL",
+      "start_at": "2026-10-02T09:00:00+08:00",
+      "status": "accepted"
+    }
+  },
+  {
+    "member_id": "m_igor",
+    "display_name": "Игорь Морозов",
+    "aliases": [],
+    "side": "foreign",
+    "team_id": "t_mach",
+    "team_name": "机电采购组",
+    "eligibility_state": "confirmed",
+    "document_ref": "DOC-REF-M_IGOR",
+    "bookings": [],
+    "holds": [],
+    "crossing_batch": {
+      "plan_id": "plan_1001",
+      "batch_no": 2,
+      "slot_id": "s_1002_1100",
+      "port_code": "MZL",
+      "start_at": "2026-10-02T11:00:00+08:00",
+      "status": "accepted"
+    }
+  },
+  {
+    "member_id": "m_lena",
+    "display_name": "Елена Соколова",
+    "aliases": [],
+    "side": "foreign",
+    "team_id": "t_mach",
+    "team_name": "机电采购组",
+    "eligibility_state": "confirmed",
+    "document_ref": "DOC-REF-M_LENA",
+    "bookings": [],
+    "holds": [],
+    "crossing_batch": {
+      "plan_id": "plan_1001",
+      "batch_no": 2,
+      "slot_id": "s_1002_1100",
+      "port_code": "MZL",
+      "start_at": "2026-10-02T11:00:00+08:00",
+      "status": "accepted"
+    }
+  },
+  {
+    "member_id": "m_zhao",
+    "display_name": "赵守明",
+    "aliases": [],
+    "side": "domestic",
+    "team_id": "t_food",
+    "team_name": "食品采购组",
+    "eligibility_state": "none",
+    "document_ref": null,
+    "bookings": [],
+    "holds": [],
+    "crossing_batch": {
+      "plan_id": "plan_1001",
+      "batch_no": 1,
+      "slot_id": "s_1002_0900",
+      "port_code": "MZL",
+      "start_at": "2026-10-02T09:00:00+08:00",
+      "status": "accepted"
+    }
+  },
+  {
+    "member_id": "m_qian",
+    "display_name": "钱多金",
+    "aliases": [],
+    "side": "domestic",
+    "team_id": "t_mach",
+    "team_name": "机电采购组",
+    "eligibility_state": "denied",
+    "document_ref": "DOC-REF-QIAN",
+    "bookings": [],
+    "holds": [],
+    "crossing_batch": {
+      "plan_id": "plan_1001",
+      "batch_no": 2,
+      "slot_id": "s_1002_1100",
+      "port_code": "MZL",
+      "start_at": "2026-10-02T11:00:00+08:00",
+      "status": "accepted"
+    }
+  }
+]
